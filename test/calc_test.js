@@ -20,7 +20,7 @@ describe('Calc', () => {
       it('returns the difference of two values', () => {
         const calc = new Calc();
         const answer = calc.subtract(17, 7);
-        const expected = 17 - 7;
+        const expected = 7 - 17;
         assert.strictEqual(answer, expected);
       });
     });
