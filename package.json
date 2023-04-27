@@ -1,0 +1,20 @@
+{
+  "name": "unit_testing_practice",
+  "version": "1.0.0",
+  "description": "For this practice, you will be making some tests to find some issues with my code!",
+  "main": "calc.js",
+  "type": "module",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
